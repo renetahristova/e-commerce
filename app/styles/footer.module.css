@@ -1,0 +1,32 @@
+.footer {
+    padding: 4rem 0rem;
+    background-color: #272727;
+    color:white;
+    font-weight: 300;
+}
+
+.footer_inner {
+    display: flex;
+    justify-content: space-between;
+    max-width: 80%;
+    margin: 0 auto;
+    border-top: 2px solid white;
+}
+
+.footer_list {
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    list-style: none;
+    margin-top: 2rem;
+}
+
+.footer_inner_logo p {
+    margin-top: -.75rem;
+    line-height: 1.4;
+}
+
+.footer_list h4 {
+    color:#56B280;
+    font-weight: 300;
+}

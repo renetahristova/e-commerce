@@ -1,0 +1,46 @@
+.header {
+  position: relative;
+}
+
+.header_bg {
+  display: block;
+  height: 80vh;
+  width: 100vw;
+  background-image: url(../public/bg-intro.png );
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header_intro {
+  position: absolute;
+  top: 20vh;
+  left: 39vw;
+  text-align: center;
+  background-color: #f7f8faf1;
+  padding: 5vh 0rem;
+  width: 50vw;
+  max-width: 500px;
+}
+
+.header_intro h1 {
+  font-size: 2.25rem;
+  margin-bottom: .5rem;
+  font-weight: 500;
+}
+
+.header_intro p {
+  font-size: .9rem;
+  width: 28rem;
+  margin: 0 auto;
+  margin-bottom: 4vh;
+}
+
+.header_intro button {
+  border: 0;
+  background-color:#56B280;
+  font-size: 1.1rem;
+  color:white;
+  padding: .6rem 3rem;
+  border-radius: 5px;
+  cursor: pointer;
+}

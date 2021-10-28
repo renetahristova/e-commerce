@@ -1,0 +1,32 @@
+.nav {
+    border-bottom: 1px solid #56b27f2f;
+}
+
+.nav_inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 1rem 0rem;
+}
+
+.nav_list {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 25rem;
+    list-style: none;
+}
+
+.nav_items {
+    cursor: pointer;
+}
+
+.nav_icon {
+    cursor: pointer;
+}
+
+.nav_logo {
+    cursor: pointer;
+}
