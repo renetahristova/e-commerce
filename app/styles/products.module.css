@@ -1,0 +1,14 @@
+.products_title {
+    margin-top: 7.5vh;
+    text-align: center;
+}
+
+.products_title h2 {
+    font-size: 2rem;
+    color:#0B254B;
+}
+
+.products_title p {
+    color:#5E6E89;
+    margin-top: -.75rem;
+}

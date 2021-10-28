@@ -1,5 +1,6 @@
 .login {
     display: flex;
+    justify-content: space-between;
     max-width: 80%;
     margin: 0 auto;
     margin-top: 20vh;
@@ -42,27 +43,36 @@
     width: 6rem;
     font-size: 1rem;
     cursor: pointer;
-}
-
-.login_inner_btn button:nth-of-type(1) {
-    background-color: #3751FE;
-    color:white;
-}
-
-.login_inner_btn button:nth-child(1):hover {
     border: 1px solid #3751FE;
     color:#3751FE;
     background: transparent;
 }
 
-.login_inner_btn button:nth-child(2) {
+.login_inner_btn button:hover {
+    background-color: #3751FE;
+    color:white;
+}
+
+.login_illustration {
+    display: none;
+}
+
+#selected {
+    background-color: #3751FE;
+    color:white;
+}
+
+#selected:hover {
     border: 1px solid #3751FE;
     color:#3751FE;
     background: transparent;
 }
 
-.login_inner_btn button:nth-child(2):hover {
-    background-color: #3751FE;
-    color:white;
-}
+@media (min-width:1024px) {
+    
+    .login_illustration {
+        display: block;
+        margin-top: -10vh;
+    }
 
+}

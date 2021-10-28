@@ -1,5 +1,5 @@
 import styles from '../styles/products.module.css';
-
+import ProductItems from './Items/ProductsItems';
 export default function Products() {
 
     return (

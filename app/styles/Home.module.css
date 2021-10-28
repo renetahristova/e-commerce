@@ -14,18 +14,19 @@
 .header_intro {
   position: absolute;
   top: 20vh;
-  left: 39vw;
+  left: 35vw;
   text-align: center;
   background-color: #f7f8faf1;
   padding: 5vh 0rem;
   width: 50vw;
-  max-width: 500px;
+  max-width: 600px;
 }
 
 .header_intro h1 {
   font-size: 2.25rem;
   margin-bottom: .5rem;
   font-weight: 500;
+  color:#1D252C;
 }
 
 .header_intro p {
@@ -33,6 +34,7 @@
   width: 28rem;
   margin: 0 auto;
   margin-bottom: 4vh;
+  color:#1D252C;
 }
 
 .header_intro button {

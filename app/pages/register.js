@@ -15,8 +15,12 @@ export default function Login() {
             <Nav />
             <section className={styles.login}>
                 <div className={styles.login_inner}>
-                    <h1>Welcome  back! Please login to your account.</h1>
+                    <h1>Hello ! Please register to your account.</h1>
                     <form>
+                    <span className={styles.login_inner_items}>
+                            <label name="username">Name</label>
+                            <input type="name" name="username"></input>
+                        </span>
                         <span className={styles.login_inner_items}>
                             <label name="email">Email Address</label>
                             <input type="email" name="email"></input>
@@ -26,8 +30,8 @@ export default function Login() {
                             <input type="password" name="password"></input>
                         </span>
                         <div className={styles.login_inner_btn}>
-                            <button id={styles.selected}>Login</button>
-                            <Link href="/register"><button>Sign Up</button></Link>
+                            <Link href="/login"><button>Login</button></Link>
+                            <button id={styles.selected}>Sign Up</button>
                         </div>
                     </form>
                 </div>
